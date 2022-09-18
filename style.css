@@ -7,66 +7,7 @@
 }
 
 
-/* text_concert */
-.marquee-w {
-    position: relative;
-    display: block;
-    width: 99vw;
-    height: 116px;
-    top: 30px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    overflow: hidden;
-}
-.marquee {
-    position: absolute;
-    display: block;
-    margin: auto auto;
-    white-space: nowrap;
-    overflow: hidden;
-    min-width: 100%;
-    height: 78%;
-}
 
-.marquee_gauche {
-    position: absolute;
-    display: block;
-    margin: auto auto;
-    white-space: nowrap;
-    overflow: hidden;
-    min-width: 100%;
-    height: 100%;
-}
-
-.marquee a {
-    display: inline-block;
-    padding-left: 100%;
-    font-family: 'poppinsbold';
-    text-align: center;
-    color: white;
-    text-decoration: underline rgba(0, 0, 0, 30%);
-    -webkit-text-stroke: 0.5px black;
-    white-space: nowrap;
-    min-width: 100%;
-    height: 100%;
-    line-height: 140px;
-    font-size: 2rem;
-    animation: marquee 10s linear infinite;
-}
-
-.marquee2 a {
-    animation-delay: 5s;
-}
-
-@keyframes marquee {
-    100% {
-        transform: translate(0, 0);
-    }
-    0% {
-        transform: translate(-100%, 0);
-    }
-}
-/* text_concert */
 
 
 .navbar {
@@ -80,7 +21,7 @@
 }
 
 .navbar_img {
-    width: 20%;
+    width: 40%;
     transition: ease-in-out 200ms;
 }
 .navbar_img:hover{
@@ -219,7 +160,7 @@ footer  p{
     color: black;
     width: 20vw;
     padding: 10px;
-    
+    border-radius: 10px;
     transition: ease-in-out 200ms;
 }
 

@@ -74,16 +74,16 @@
     
 }
 
-.navbar a {
+.navbar_a {
     width: 20vw;
     margin-left: 30px;
 }
 
-.navbar img {
+.navbar_img {
     width: 20%;
     transition: ease-in-out 200ms;
 }
-.navbar img:hover{
+.navbar_img:hover{
     scale: 150%;
     transition: ease-in-out 200ms;
 }
@@ -97,7 +97,7 @@
     border-bottom: solid 1px black;
 }
 
-.navbar_lien a {
+.navbar_a {
     text-decoration: none;
     font-size: 1.2rem;
     color: black;
@@ -105,7 +105,7 @@
     transition: ease-in-out 200ms;
 }
 
-.navbar_lien a:hover {
+.navbar_a:hover {
     font-size: 3rem;
     transition: ease-in-out 200ms;
 }
@@ -124,12 +124,12 @@
     overflow: hidden;
 }
 
-.acceuil h1 {
+.acceuil_titre {
     font-size: 8rem;
     font-family: "lobster";
 }
 
-.acceuil img {
+.acceuil_img {
     width: 40%;
     display: block;
     margin: 100px 70% 0 100px;
@@ -138,7 +138,7 @@
 
 
 
-.acceuil img:nth-of-type(odd) {
+.acceuil_img:nth-of-type(odd) {
     margin-left: 60%;
 }
 
@@ -195,10 +195,29 @@ footer  p{
 
 /* POCHETTES */
 .album {
-    background-color: gray;
+    background-color: thistle;
     width: 20vw;
+    padding: 10px;
+    
+    transition: ease-in-out 200ms;
+}
+.album:hover{
+    background-color: thistle;
+    transition: ease-in-out 200ms;
+    border-radius: 20px;
+    scale: 105%;
 }
 .album_img{
     width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.album_h3 {
+    font-size: 1.5rem;
+}
+
+.album_date {
+    font-style: oblique;
 }
 /* POCHETTES */

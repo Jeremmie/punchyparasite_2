@@ -192,17 +192,39 @@ footer  p{
 }
 /* TRANSITION */
 
+/* GRIDITEM */
+    .grid {
+        max-width: 100vw;
+        max-height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 20vw);
+        justify-content: center;
+        /*grid-gap: 10px; (dans l'exemple mais VSC ne le reconnait pas)*/
+        grid-gap: 10%;
+        align-content: center;
+        padding: 5% 0 5% 0;
+    }
+/* GRIDITEM */
 
 /* POCHETTES */
 .album {
-    background-color: thistle;
+    
     width: 20vw;
     padding: 10px;
     
     transition: ease-in-out 200ms;
 }
-.album:hover{
-    background-color: thistle;
+.album_lien {
+    text-decoration: none;
+    color: black;
+    width: 20vw;
+    padding: 10px;
+    
+    transition: ease-in-out 200ms;
+}
+
+.album_lien:hover{
+    border: solid violet;
     transition: ease-in-out 200ms;
     border-radius: 20px;
     scale: 105%;

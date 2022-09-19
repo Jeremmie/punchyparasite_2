@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    
+}
+
+
+/* text_concert */
+.marquee-w {
+    position: relative;
+    display: block;
+    width: 99vw;
+    height: 116px;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+.marquee {
+    position: absolute;
+    display: block;
+    margin: auto auto;
+    white-space: nowrap;
+    overflow: hidden;
+    min-width: 100%;
+    height: 78%;
+}
+
+.marquee_gauche {
+    position: absolute;
+    display: block;
+    margin: auto auto;
+    white-space: nowrap;
+    overflow: hidden;
+    min-width: 100%;
+    height: 100%;
+}
+
+.marquee a {
+    display: inline-block;
+    padding-left: 100%;
+    font-family: 'poppinsbold';
+    text-align: center;
+    color: white;
+    text-decoration: underline rgba(0, 0, 0, 30%);
+    -webkit-text-stroke: 0.5px black;
+    white-space: nowrap;
+    min-width: 100%;
+    height: 100%;
+    line-height: 140px;
+    font-size: 2rem;
+    animation: marquee 10s linear infinite;
+}
+
+.marquee2 a {
+    animation-delay: 5s;
+}
+
+@keyframes marquee {
+    100% {
+        transform: translate(0, 0);
+    }
+    0% {
+        transform: translate(-100%, 0);
+    }
+}
+/* text_concert */
+
+
+.navbar {
+    display: flex;
+    
+}
+
+.navbar a {
+    width: 20vw;
+    margin-left: 30px;
+}
+
+.navbar img {
+    width: 20%;
+    transition: ease-in-out 200ms;
+}
+.navbar img:hover{
+    scale: 150%;
+    transition: ease-in-out 200ms;
+}
+
+.navbar_lien {
+    padding: 0 50px 0 20px;
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    align-self: inherit;
+    border-bottom: solid 1px black;
+}
+
+.navbar_lien a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    padding: 20px;
+    transition: ease-in-out 200ms;
+}
+
+.navbar_lien a:hover {
+    font-size: 3rem;
+    transition: ease-in-out 200ms;
+}
+
+.acceuil {
+    /* background-color: green; */
+    width: 90vw;
+    height: fit-content;
+    display: block;
+    margin: 100px auto 0 auto;
+    padding: 20px;
+}
+
+.acceuil h1 {
+    font-size: 8rem;
+    font-family: "lobster";
+}
+
+footer {
+    /* background-color: gray; */
+    max-width: 90vw;
+    display: block;
+    margin: 0 auto 0 auto;
+    padding: 50px 0 50px 0;
+}
+
+footer  p{
+    font-size: 1rem;
+    color: blue;
+}
+
+/* TRANSITION */
+.cont-bandes {
+    width: 100%;
+    height: 100vh;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: absolute;
+    pointer-events: none;
+    /* background: #000; */
+    z-index: 500;
+}
+.bande {
+    width: 10%;
+    height: 0%;
+}
+.bande:nth-child(even){
+    background-image: url(sources/img/pochettes/pochette_2.jpeg);
+    background-position: center;
+}
+.bande:nth-child(odd){
+    background-image: url(sources/img/pochettes/pochette_3.jpeg);
+    background-position: center;
+}
+
+.wipe-transition {
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(90deg, rgb(165, 165, 223),midnightblue) ;
+    position: absolute;
+    left: -200%;
+}
+/* TRANSITION */
+
+
+/* POCHETTES */
+.album {
+    background-color: thistle;
+    width: 20vw;
+    padding: 10px;
+    
+    transition: ease-in-out 200ms;
+}
+.album:hover{
+    background-color: thistle;
+    transition: ease-in-out 200ms;
+    border-radius: 20px;
+    scale: 120%;
+}
+.album img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.album h3 {
+    font-size: 1.5rem;
+}
+
+.album_date {
+    font-style: oblique;
+}
+/* POCHETTES */

@@ -1,20 +1,24 @@
-var modals = document.getElementsByClassName("modal");
+// CETTE PAGE SERT A FAIRE FONCTIONNER LES MODAL POPUP PRESENTE DANS LA PAGE POCHETTES.HTML
 
-for (let index = 0; index < modals.length; index++) {
-    var btn = document.getElementById("myBtn" + index);
-    let modal = document.getElementById("myModal" + index)
-    var span = document.getElementsByClassName("close")[index];
-    // When the user clicks the button, open the modal 
-    btn.onclick = function () {
-        var modal = document.getElementById("myModal" + index)
-        modal.style.display = "block";
-    }
+window.onload = function modalinit() {
+    var modals = document.getElementsByClassName("modal");
 
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function () {
-        // var modal = document.getElementById("myModal"+index)
-        modal.style.display = "none";
-    }
+    for (let index = 0; index < modals.length; index++) {
+        var btn = document.getElementById("myBtn" + index);
+        let modal = document.getElementById("myModal" + index)
+        var span = document.getElementsByClassName("close")[index];
+        // When the user clicks the button, open the modal 
+        btn.onclick = function () {
+            var modal = document.getElementById("myModal" + index)
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            // var modal = document.getElementById("myModal"+index)
+            modal.style.display = "none";
+        }
+    };
 };
 
 

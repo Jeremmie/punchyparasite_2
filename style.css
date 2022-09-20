@@ -21,7 +21,7 @@
 }
 
 .navbar_img {
-    width: 40%;
+    width: max(40%, 60px);
     transition: ease-in-out 200ms;
 }
 .navbar_img:hover{

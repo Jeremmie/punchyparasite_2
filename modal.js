@@ -19,17 +19,24 @@ function modalinit() {
             modal.style.display = "none";
         }
     };
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        console.log('test')
+        for (let index = 0; index < modals.length; index++) {
+            var modal = document.getElementById("myModal" + index)
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    };
+    
 };
 
-window.onload = modalinit();
 
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function (event) {
-    for (let index = 0; index < modals.length; index++) {
-        var modal = document.getElementById("myModal" + index)
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
-}
+window.onload = modalinit(); //rappel la fonction modalinit et la reload au changement de page
+
+
+
+

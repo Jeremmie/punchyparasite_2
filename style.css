@@ -44,7 +44,7 @@
     transition: ease-in-out 200ms;
     white-space: nowrap;
     width: 20vw;
-    margin-left: 3%;
+    margin-left: 3vw;
  
 }
 
@@ -74,7 +74,7 @@
 }
 
 .acceuil_titre_h1 {
-    font-size: 5vw;
+    font-size: 8vw;
     font-family: "lobster";
     white-space: break-spaces;
 

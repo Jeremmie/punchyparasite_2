@@ -82,8 +82,8 @@
 .acceuil_titre_img{
     width: 38%;
     height: fit-content;
-  }
 }
+
 
 .acceuil_img {
     width: 40%;
@@ -290,3 +290,44 @@ footer {
     margin: 10% auto 0 auto;
 }
   /* MODAL CONTENT */
+
+
+  /* acceuil plateforme */
+  .acceuil_plateforme{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 90vw;
+      margin-top: 100px;
+      
+  }
+  .acceuil_plateforme_h3 {
+    font-size: 3rem;
+    text-align: center;
+    font-family: "lobster";
+  }
+  .acceuil_plateforme_div_img{
+      display: flex;
+      flex-direction: row;
+      width: 90vw;
+      padding: 0 30% 0 30%;
+      justify-content: space-between;
+      margin-top: 100px;
+  }
+
+  .acceuil_plateforme_btn{
+      width: 20vw;
+      background: linear-gradient(white, pink);
+      border-radius: 20px;
+  }
+
+  .acceuil_plateforme_btn img{
+    width: fit-content;
+  }
+
+  #btn_test{
+      padding: 20px;
+      background: gray;
+      color: white;
+  }
+  /* acceuil plateforme */

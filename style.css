@@ -18,6 +18,7 @@
 .navbar_a {
     width: 20vw;
     margin-left: 30px;
+    white-space: nowrap;
 }
 
 .navbar_img {

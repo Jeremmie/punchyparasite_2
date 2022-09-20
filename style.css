@@ -15,11 +15,7 @@
     margin-top: 20px;
 }
 
-.navbar_a {
-    width: 20vw;
-    margin-left: 30px;
-    white-space: nowrap;
-}
+
 
 .navbar_img {
     width: max(40%, 60px);
@@ -44,8 +40,12 @@
     text-decoration: none;
     font-size: 1.2rem;
     color: black;
-    padding: 20px;
+    padding: 20px 0 20px 0;
     transition: ease-in-out 200ms;
+    white-space: nowrap;
+    width: 20vw;
+    margin-left: 3%;
+ 
 }
 
 .navbar_a:hover {
@@ -70,15 +70,19 @@
 .acceuil_titre{
     display: flex;
     flex-direction: row;
-    width: 50vw;
+    width: 100%;
 }
 
 .acceuil_titre_h1 {
-    font-size: 8rem;
+    font-size: 5vw;
     font-family: "lobster";
+    white-space: break-spaces;
+
 }
 .acceuil_titre_img{
-    width: fit-content;
+    width: 38%;
+    height: fit-content;
+  }
 }
 
 .acceuil_img {

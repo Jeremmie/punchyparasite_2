@@ -1,6 +1,6 @@
 // CETTE PAGE SERT A FAIRE FONCTIONNER LES MODAL POPUP PRESENTE DANS LA PAGE POCHETTES.HTML
 
-window.onload = function modalinit() {
+function modalinit() {
     var modals = document.getElementsByClassName("modal");
 
     for (let index = 0; index < modals.length; index++) {
@@ -20,6 +20,8 @@ window.onload = function modalinit() {
         }
     };
 };
+
+window.onload = modalinit();
 
 
 // When the user clicks anywhere outside of the modal, close it

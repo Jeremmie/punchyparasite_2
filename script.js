@@ -58,7 +58,7 @@ barba.init({
 
 barba.hooks.enter((data) => {
     modalinit();
-    butninit();
+    btninit();
 });
 
 

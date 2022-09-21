@@ -21,6 +21,8 @@
     width: max(40%, 60px);
     transition: ease-in-out 200ms;
 }
+
+
 .navbar_img:hover{
     scale: 150%;
     transition: ease-in-out 200ms;
@@ -53,6 +55,42 @@
     transition: ease-in-out 200ms;
 }
 
+@media(max-width: 50rem) {
+    #navbar_a_logo{
+        display: none;
+    }
+
+    .navbar_lien{
+        width: 100vw;
+        max-height: 120px;
+        display: flex;
+        overflow-x: auto;
+        
+    }
+
+    .navbar__lien::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .navbar_a {
+        min-width: 110px;
+        height: 110px;
+        line-height: 110px;
+        text-align: center;
+        background-color: white;
+        margin-right: 2px;
+    }
+
+    .navbar_a:hover {
+        display: none;
+    }
+
+    .navbar_img {
+        width: 0;
+        height: 0;
+        
+    }
+}
 .acceuil {
     /* background-color: green; */
     width: 90vw;
@@ -329,6 +367,7 @@ footer {
     font-size: 3rem;
     text-align: center;
     font-family: "lobster";
+    font-family: 'Passion One', cursive;
   }
   .acceuil_plateforme_div_img{
       display: flex;

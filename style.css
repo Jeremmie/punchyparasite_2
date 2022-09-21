@@ -362,7 +362,7 @@ footer {
       width: 0;
       height: 0;
       border-radius: 50%;
-      background: linear-gradient(white, black);
+      background: black;
       transition: width 0.5s, height 0.5s;
   }
 
@@ -423,7 +423,7 @@ footer {
     width: 0;
     height: 0;
     border-radius: 50%;
-    background: linear-gradient(whitesmoke, black);
+    background:black;
     transition: width 0.5s, height 0.5s;
 }
 

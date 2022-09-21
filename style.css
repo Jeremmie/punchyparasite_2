@@ -309,10 +309,11 @@ footer {
   .acceuil_plateforme_div_img{
       display: flex;
       flex-direction: row;
-      width: 90vw;
-      padding: 0 30% 0 30%;
+      
+    margin: 50px 20% 0 20%;
+      
       justify-content: space-between;
-      margin-top: 100px;
+      
   }
 
   .acceuil_plateforme_btn{
@@ -325,9 +326,122 @@ footer {
     width: fit-content;
   }
 
-  #btn_test{
-      padding: 20px;
-      background: gray;
-      color: white;
+  .btn_test{
+      position: relative;
+      display: inline-flex;
+      padding: 10px 30px;
+      border-radius: 30px;
+      
+      text-decoration: none;
+      letter-spacing: 1px;
+      overflow: hidden;
   }
+
+  .btn_test img{
+    position: relative;
+    z-index: 1;
+    width: 10vw;
+    height: fit-content;
+    transition: 500ms;
+  }
+
+  .btn_test img:hover{
+    position: relative;
+    z-index: 1;
+    width: 12vw;
+    height: fit-content;
+    transition: 500ms;
+  }
+
+  .btn_test::before{
+      content: '';
+      position: absolute;
+      top: var(--y);
+      left: var(--x);
+      transform: translate(-50%, -50%);
+      width: 0;
+      height: 0;
+      border-radius: 50%;
+      background: linear-gradient(white, black);
+      transition: width 0.5s, height 0.5s;
+  }
+
+  .btn_test:hover::before{
+      width: 200%;
+      height: 200%;
+  }
+
+  .btn_test{
+      position: relative;
+      display: inline-flex;
+      padding: 10px 30px;
+      border-radius: 30px;
+      
+      text-decoration: none;
+      letter-spacing: 1px;
+      overflow: hidden;
+      
+
+  }
+
+
+  .btn_test2{
+    position: relative;
+    display: inline-flex;
+    padding: 10px 30px;
+    border-radius: 30px;
+    
+    text-decoration: none;
+    letter-spacing: 1px;
+    overflow: hidden;
+    
+
+}
+
+.btn_test2 img{
+    position: relative;
+    z-index: 1;
+    width: 10vw;
+    height: fit-content;
+    transition: 500ms;
+}
+
+.btn_test2 img:hover{
+    position: relative;
+    z-index: 1;
+    width: 12vw;
+    height: fit-content;
+    transition: 500ms;
+  }
+
+.btn_test2::before{
+    content: '';
+    position: absolute;
+    top: var(--y);
+    left: var(--x);
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: linear-gradient(whitesmoke, black);
+    transition: width 0.5s, height 0.5s;
+}
+
+.btn_test2:hover::before{
+    width: 200%;
+    height: 200%;
+}
+
+.btn_test2{
+    position: relative;
+    display: inline-flex;
+    padding: 10px 30px;
+    border-radius: 30px;
+    
+    text-decoration: none;
+    letter-spacing: 1px;
+    overflow: hidden;
+    
+
+}
   /* acceuil plateforme */

@@ -3,6 +3,7 @@
 function modalinit() {
     var modals = document.getElementsByClassName("modal");
 
+
     for (let index = 0; index < modals.length; index++) {
         var btn = document.getElementById("myBtn" + index);
         let modal = document.getElementById("myModal" + index)
@@ -30,7 +31,8 @@ function modalinit() {
             }
         }
     };
-    
+
+
 };
 
 

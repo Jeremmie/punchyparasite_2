@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Kanit', sans-serif;
-    
+    scroll-behavior: smooth;
 }
 
 
@@ -80,7 +80,7 @@
 
 }
 .acceuil_titre_img{
-    width: 38%;
+    width: 26%;
     height: fit-content;
 }
 
@@ -301,7 +301,21 @@ footer {
       margin-top: 100px;
       
   }
+
+  .boutton {
+      display: block;
+      margin: 0 auto 0 auto;
+      
+      width: fit-content;
+  }
+  .boutton svg {
+      width: 10%;
+      display: block;
+        margin: 0 auto 0 auto;
+    rotate: -90deg;
+  }
   .acceuil_plateforme_h3 {
+      margin-top: 200px;
     font-size: 3rem;
     text-align: center;
     font-family: "lobster";

@@ -82,7 +82,7 @@
     }
 
     .navbar_a:hover {
-        display: none;
+        
     }
 
     .navbar_img {
@@ -658,6 +658,10 @@ footer {
         border-radius: 50%;
         margin-top: -100%;
         height: auto;
+    }
+
+    .boutton svg:hover {
+        display: none;
     }
     .acceuil {
         height: 70vh;

@@ -1,5 +1,4 @@
 function btninit() {
-    
     const btn = document.querySelector('.btn_test');
     const btn2 = document.querySelector('.btn_test2');
     const btn3 = document.querySelector('.btn_test3');

@@ -654,19 +654,14 @@ footer {
         font-size: 15vw;
     }
     .boutton svg {
-        width: 10vw;
-        background-color: gainsboro;
-        border-radius: 50%;
-        margin-top: -100%;
-        height: auto;
+        display: none;
     }
 
     .boutton svg:hover {
         display: none;
     }
     .acceuil {
-        height: 70vh;
-        
+    
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -687,6 +682,11 @@ footer {
         
         
     }
+    .acceuil_plateforme h3{
+        margin-top: auto;
+        
+        
+    }
     .acceuil_plateforme_div_img {
         flex-direction: column;
         height: 39vh;
@@ -698,12 +698,34 @@ footer {
     #mediaqueris_hidden{
         display: none;
     }
+    .btn_test1::before{
+        display: none;
+    }
+    .btn_test1:hover:before{
+        display: none;
+    }
     .btn_test2::before{
-        
+        display: none;
+    }
+    .btn_test2:hover:before{
+        display: none;
+    }
+    .btn_test3::before{
+        display: none;
+    }
+    .btn_test3:hover:before{
+        display: none;
+    }
+    .btn_test4::before{
+        display: none;
+    }
+    .btn_test4:hover:before{
+        display: none;
     }
     .btn_test2 img{
         background-color: black;
         border-radius: 10px;
+        padding: 4%;
     }
     .btn_test img{
         background-color: black;

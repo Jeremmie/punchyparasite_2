@@ -697,4 +697,23 @@ footer {
     #mediaqueris_hidden{
         display: none;
     }
+    .btn_test2::before{
+        display: none;
+    }
+    .btn_test2 img{
+        background-color: black;
+        border-radius: 10px;
+    }
+    .btn_test img{
+        background-color: black;
+        border-radius: 10px;
+    }
+    .btn_test3 img{
+        background-color: black;
+        border-radius: 10px;
+    }
+    .btn_test4 img{
+        background-color: black;
+        border-radius: 10px;
+    }
 }

@@ -23,7 +23,7 @@ function modalinit() {
 
     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function (event) {
-        console.log('test')
+        
         for (let index = 0; index < modals.length; index++) {
             var modal = document.getElementById("myModal" + index)
             if (event.target == modal) {

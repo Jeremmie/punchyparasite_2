@@ -722,4 +722,7 @@ footer {
     .btn_test2::before {
         display: none;
     }
+    .btn_test::before {
+        display: none;
+    }
 }

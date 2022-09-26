@@ -698,30 +698,7 @@ footer {
     #mediaqueris_hidden{
         display: none;
     }
-    .btn_test1::before{
-        display: none;
-    }
-    .btn_test1:hover:before{
-        display: none;
-    }
-    .btn_test2::before{
-        display: none;
-    }
-    .btn_test2:hover:before{
-        display: none;
-    }
-    .btn_test3::before{
-        display: none;
-    }
-    .btn_test3:hover:before{
-        display: none;
-    }
-    .btn_test4::before{
-        display: none;
-    }
-    .btn_test4:hover:before{
-        display: none;
-    }
+ 
     .btn_test2 img{
         background-color: black;
         border-radius: 10px;
@@ -738,5 +715,11 @@ footer {
     .btn_test4 img{
         background-color: black;
         border-radius: 10px;
+    }
+    .scriptbtn {
+        display: none;
+    }
+    .btn_test2::before {
+        display: none;
     }
 }

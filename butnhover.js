@@ -1,16 +1,15 @@
 
 
 const mediaQueris = window.matchMedia("(mediaQueryString)")
-if (window.matchMedia("(max-width: 50rem)").matches) {
-    btninit = function() { };
-  } else {
+if (!window.matchMedia("(max-width: 50rem)").matches) {
+   
     function btninit() {
         const btn = document.querySelector('.btn_test');
         const btn2 = document.querySelector('.btn_test2');
         const btn3 = document.querySelector('.btn_test3');
         const btn4 = document.querySelector('.btn_test4');
     
-        console.log('test')
+        console.log('mediaqueris')
     
         btn.onmousemove = function (e) {
             const x = e.pageX - btn.offsetLeft;

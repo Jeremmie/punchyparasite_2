@@ -81,9 +81,7 @@
         margin-right: 2px;
     }
 
-    .navbar_a:hover {
-        
-    }
+    
 
     .navbar_img {
         width: 0;
@@ -240,6 +238,75 @@ footer {
 /* TRANSITION */
 
 /* GRIDITEM */
+    
+/* GRIDITEM */
+
+/* POCHETTES */
+.album {
+    
+    width: 20vw;
+    padding: 10px;
+    
+    transition: ease-in-out 200ms;
+}
+
+.album_lien {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    padding: 40px 20px 40px 20px;
+    border-radius: 100px;
+    transition: ease-in-out 200ms;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    margin: 50px 0 50px 0;
+}
+
+#myBtn0 {
+    background-image: url(sources/img/pochettes/pochette_1.jpeg);
+}
+#myBtn1 {
+    background-image: url(sources/img/pochettes/pochette_2.jpeg);
+}
+#myBtn2 {
+    background-image: url(sources/img/pochettes/pochette_3.jpeg);
+}
+#myBtn3 {
+    background-image: url(sources/img/pochettes/pochette_4.jpeg);
+}
+#myBtn4 {
+    background-image: url(sources/img/pochettes/pochette_5.jpeg);
+}
+
+.album_img{
+    
+    width: 0;
+
+}
+
+.album_titre {
+    font-size: 1.5rem;
+
+}
+.mobile_style {
+    background: rgba(255, 27, 27, 0.466);
+    width: fit-content;
+    padding: 0 5px 0 5px;
+}
+.album_genre {
+    font-style: oblique;
+}
+
+
+@media (min-width: 50rem) {
+    .album_lien:hover{
+        border: solid violet;
+        transition: ease-in-out 200ms;
+        border-radius: 20px;
+        scale: 105%;
+    }
     .grid {
         max-width: 100vw;
         max-height: fit-content;
@@ -251,45 +318,43 @@ footer {
         align-content: center;
         padding: 5% 0 5% 0;
         margin-top: 30px;
+        
     }
-/* GRIDITEM */
-
-/* POCHETTES */
-.album {
-    
-    width: 20vw;
-    padding: 10px;
-    
-    transition: ease-in-out 200ms;
-}
-.album_lien {
-    text-decoration: none;
-    color: black;
-    width: 20vw;
-    padding: 10px;
-    border-radius: 10px;
-    transition: ease-in-out 200ms;
-    cursor: pointer;
-}
-
-.album_lien:hover{
-    border: solid violet;
-    transition: ease-in-out 200ms;
-    border-radius: 20px;
-    scale: 105%;
-}
-.album_img{
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-.album_h3 {
-    font-size: 1.5rem;
-}
-
-.album_genre {
-    font-style: oblique;
+    .album_lien {
+        text-decoration: none;
+        color: black;
+        width: 20vw;
+        padding: 10px;
+        border-radius: 10px;
+        transition: ease-in-out 200ms;
+        cursor: pointer;
+        background: none;
+    }
+    .album_img{
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    .mobile_style {
+        background: none;
+        width: fit-content;
+        padding: 0;
+    }
+    #myBtn0 {
+        background-image: none;
+    }
+    #myBtn1 {
+        background-image: none;
+    }
+    #myBtn2 {
+        background-image: none;
+    }
+    #myBtn3 {
+        background-image: none;
+    }
+    #myBtn4 {
+        background-image: none;
+    }
 }
 /* POCHETTES */
 
@@ -371,6 +436,8 @@ footer {
     display: block;
     margin: 10% auto 0 auto;
 }
+
+
   /* MODAL CONTENT */
 
 
@@ -484,10 +551,11 @@ footer {
         display: none;
     }
     .acceuil {
-    
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        width: 95vw;
+        padding: 0;
     }
     
     header {

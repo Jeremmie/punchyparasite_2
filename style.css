@@ -437,7 +437,7 @@ footer {
     position: relative;
     z-index: 1;
     width: 10vw;
-    height: fit-content;
+    /* height: fit-content; */
     transition: 500ms;
     }
 
@@ -550,7 +550,7 @@ footer {
         position: relative;
         z-index: 1;
         width: 12vw;
-        height: fit-content;
+        /* height: fit-content; */
         transition: 500ms;
       }
     

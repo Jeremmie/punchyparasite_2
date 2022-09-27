@@ -342,10 +342,7 @@ footer {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 90vw;
-      
-      
-      
+      width: 90vw;   
   }
 
   .boutton {
@@ -398,7 +395,9 @@ footer {
     width: fit-content;
   }
 
-  .btn_test{
+  /* BOUTTON HOME */
+
+  .btnall{
       position: relative;
       display: inline-flex;
       padding: 10px 30px;
@@ -408,219 +407,22 @@ footer {
       letter-spacing: 1px;
       overflow: hidden;
       height: fit-content;
-  }
+    }
 
-  .btn_test img{
+  .btnall img{
     position: relative;
     z-index: 1;
     width: 10vw;
     height: fit-content;
     transition: 500ms;
-  }
-
-  
-
-  .btn_test{
-      position: relative;
-      display: inline-flex;
-      padding: 10px 30px;
-      border-radius: 30px;
-      
-      text-decoration: none;
-      letter-spacing: 1px;
-      overflow: hidden;
-      
-
-  }
+    }
 
 
-  .btn_test2{
-    position: relative;
-    display: inline-flex;
-    padding: 10px 30px;
-    border-radius: 30px;
-    
-    text-decoration: none;
-    letter-spacing: 1px;
-    overflow: hidden;
-    height: fit-content;
-    
+/* BOUTTON HOME */
 
-}
-
-.btn_test2 img{
-    position: relative;
-    z-index: 1;
-    width: 10vw;
-    height: fit-content;
-    transition: 500ms;
-}
-
-.btn_test2 img:hover{
-    position: relative;
-    z-index: 1;
-    width: 12vw;
-    height: fit-content;
-    transition: 500ms;
-  }
-
-.btn_test2::before{
-    content: '';
-    position: absolute;
-    top: var(--y);
-    left: var(--x);
-    transform: translate(-50%, -50%);
-    width: 0;
-    height: 0;
-    border-radius: 50%;
-    background:black;
-    transition: width 0.5s, height 0.5s;
-}
-
-.btn_test2:hover::before{
-    width: 200%;
-    height: 200%;
-}
-
-.btn_test2{
-    position: relative;
-    display: inline-flex;
-    padding: 10px 30px;
-    border-radius: 30px;
-    
-    text-decoration: none;
-    letter-spacing: 1px;
-    overflow: hidden;
-    
-
-}
-/* BOUTON3 */
-.btn_test3{
-    position: relative;
-    display: inline-flex;
-    padding: 10px 30px;
-    border-radius: 30px;
-    
-    text-decoration: none;
-    letter-spacing: 1px;
-    overflow: hidden;
-    height: fit-content;
-
-}
-
-.btn_test3 img{
-    position: relative;
-    z-index: 1;
-    width: 10vw;
-    height: fit-content;
-    transition: 500ms;
-}
-
-.btn_test3 img:hover{
-    position: relative;
-    z-index: 1;
-    width: 12vw;
-    height: fit-content;
-    transition: 500ms;
-  }
-
-.btn_test3::before{
-    content: '';
-    position: absolute;
-    top: var(--y);
-    left: var(--x);
-    transform: translate(-50%, -50%);
-    width: 0;
-    height: 0;
-    border-radius: 50%;
-    background:black;
-    transition: width 0.5s, height 0.5s;
-}
-
-.btn_test3:hover::before{
-    width: 200%;
-    height: 200%;
-}
-
-.btn_test3{
-    position: relative;
-    display: inline-flex;
-    padding: 10px 30px;
-    border-radius: 30px;
-    
-    text-decoration: none;
-    letter-spacing: 1px;
-    overflow: hidden;
-    
-
-}
-/* BOUTON3 */
-
-/* BOUTON4 */
-.btn_test4{
-    position: relative;
-    display: inline-flex;
-    padding: 10px 30px;
-    border-radius: 30px;
-    
-    text-decoration: none;
-    letter-spacing: 1px;
-    overflow: hidden;
-    height: fit-content;
-
-}
-
-.btn_test4 img{
-    position: relative;
-    z-index: 1;
-    width: 10vw;
-    height: fit-content;
-    transition: 500ms;
-}
-
-.btn_test4 img:hover{
-    position: relative;
-    z-index: 1;
-    width: 12vw;
-    height: fit-content;
-    transition: 500ms;
-    
-  }
-
-.btn_test4::before{
-    content: '';
-    position: absolute;
-    top: var(--y);
-    left: var(--x);
-    transform: translate(-50%, -50%);
-    width: 0;
-    height: 0;
-    border-radius: 50%;
-    background:black;
-    transition: width 0.5s, height 0.5s;
-}
-
-.btn_test4:hover::before{
-    width: 200%;
-    height: 200%;
-}
-
-.btn_test4{
-    position: relative;
-    display: inline-flex;
-    padding: 10px 30px;
-    border-radius: 30px;
-    
-    text-decoration: none;
-    letter-spacing: 1px;
-    overflow: hidden;
-    
-
-}
-/* BOUTON4 */
 
 #btn_plateforme_bas {
-    margin: 0 30% 0 30%;
+    margin: 10px 20% 0 20%;
 }
   /* acceuil plateforme */
 
@@ -673,15 +475,14 @@ footer {
         display: none;
     }
  
-    .btn_test2 img{
-        
-        padding: 4%;
-    }
+    
     
     .btnall img{
         background-color: black;
+        border: solid 1px white;
         border-radius: 10px;
         width: 70%;
+        padding: 5px;
     }
     .scriptbtn {
         display: none;
@@ -691,7 +492,7 @@ footer {
 }
 
 @media (min-width: 50rem) {
-    .btn_test::before{
+    .btnall::before{
         content: '';
         position: absolute;
         top: var(--y);
@@ -704,7 +505,7 @@ footer {
         transition: width 0.5s, height 0.5s;
     }
 
-    .btn_test img:hover{
+    .btnall img:hover{
         position: relative;
         z-index: 1;
         width: 12vw;
@@ -714,7 +515,7 @@ footer {
     
       
     
-      .btn_test:hover::before{
+      .btnall:hover::before{
           width: 200%;
           height: 200%;
       }

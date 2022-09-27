@@ -98,6 +98,25 @@
     padding: 20px;
 }
 
+.acceuil p{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    width: 40vw;
+}
+.fr{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    width: 40vw;
+    display: block;
+    margin-left: auto;
+    text-align: end;
+}
+.acceuil img{
+    width: 30vw;
+    display: block;
+    margin: 0 auto 0 auto;
+    border-radius: 20px;
+}
 
 #hidden {
     overflow: hidden;
@@ -588,7 +607,7 @@ footer {
 
     .acceuil_plateforme{
         height: 100vh;
-        background-image: url(sources/img/home/version_mobile.png);
+        /* background-image: url(sources/img/home/version_mobile.png); */
         background-size: 100%;
         background-position-x: center;
         background-position-y: center;

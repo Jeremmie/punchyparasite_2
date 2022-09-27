@@ -456,6 +456,9 @@ footer {
     .plateforme_img {
         width: 90%;
     }
+    .plateforme:hover{
+        background-color: none;
+    }
   }
 
   /* MODAL CONTENT */

@@ -615,14 +615,14 @@ footer {
     
     .btnall img{
         background-color: black;
-        border: solid 1px white;
+        
         border-radius: 10px;
         width: 70%;
         padding: 5px;
     }
     .btn_test3 img{
         background-color: black;
-        border: solid 1px white;
+        
         border-radius: 10px;
         width: 70%;
 
@@ -632,7 +632,10 @@ footer {
     .scriptbtn {
         display: none;
      }
-     
+
+     #btn_plateforme_bas {
+        margin: 10px 20% 0 20%;
+    }
      
 }
 

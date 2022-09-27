@@ -403,6 +403,8 @@ footer {
     text-decoration: none;
     cursor: pointer;
   }
+
+  
   /* MODAL */
 
   /* MODAL CONTENT */
@@ -441,7 +443,20 @@ footer {
     display: block;
     margin: 10% auto 0 auto;
 }
-
+@media (max-width: 50rem) {
+    .modal-content {
+        width: 90vw;
+    }
+    .plateformex2 {
+        justify-content: space-between;
+    }
+    .plateforme_p {
+        display: none;
+    }
+    .plateforme_img {
+        width: 90%;
+    }
+  }
 
   /* MODAL CONTENT */
 

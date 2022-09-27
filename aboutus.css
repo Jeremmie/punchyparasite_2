@@ -1,9 +1,9 @@
-.aboutus_titre{
+.aboutus h1{
     font-size: 2rem;
     
 }
 
-.eng{
+.aboutus p{
     width: 50vw;
     margin-top: 50px;
 }

@@ -99,21 +99,6 @@
 }
 
 
-.fr{
-    margin-top: 20px;
-    font-size: 1.2rem;
-    width: 40vw;
-    display: block;
-    margin-left: auto;
-    text-align: end;
-}
-.aboutus_img{
-    width: 30vw;
-    display: block;
-    margin: 0 auto 0 auto;
-    border-radius: 20px;
-}
-
 #hidden {
     overflow: hidden;
 }
